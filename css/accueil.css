@@ -12,6 +12,10 @@
 #blocpage{
     width:80%;
     margin: auto;
+<<<<<<< Updated upstream
+=======
+    border:2px solid black;
+>>>>>>> Stashed changes
 }
 
 /* Menu */
@@ -107,6 +111,118 @@ margin-top: -50px;
     margin-top: -50px;
 }
 
+<<<<<<< Updated upstream
+=======
+/* Formulaire 1 */
+#premierformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#premierformulaire fieldset legend{
+    color: white;
+}
+#premierformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Fin Formulaire 1 */
+
+
+/* Formulaire 2 */
+
+#secondformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#secondformulaire fieldset legend{
+    color: white;
+}
+#secondformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Fin Formulaire 2 */
+
+/* Formulaire 3 */
+
+#troisiemeformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#troisiemeformulaire fieldset legend{
+    color: white;
+}
+#troisiemeformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Fin Formulaire 3 */
+
+/*Formulaire 4 */
+
+#quatrièmeformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#quatrièmeformulaire fieldset legend{
+    color: white;
+}
+#quatrièmeformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type=submit]{
+    font-size: 1rem;  
+    padding: 10px;
+    color:black;
+    border:1px solid white;
+    border: none;
+}
+
+input[type=submit]:hover{
+    box-shadow:0px 5px 20px red;
+    transition:0.5s;
+}
+/* Fin Formulaire 4*/
+>>>>>>> Stashed changes
 
 /* Footer */
 
