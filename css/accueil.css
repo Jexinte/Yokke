@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color:black;
     font-family: 'Oswald';
 }
 
@@ -23,6 +22,7 @@
 }
 #container-navigation nav a{
     margin-left: 20px;
+    color:black;
 }
 
 #logo{
@@ -66,6 +66,10 @@ button{
     border: none;
 }
 
+button a {
+    color:black;
+}
+
 button:hover{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
@@ -107,6 +111,106 @@ margin-top: -50px;
     margin-top: -50px;
 }
 
+/* Formulaire 1 */
+#premierformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#premierformulaire fieldset legend{
+    color: white;
+}
+#premierformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Fin Formulaire 1 */
+
+
+/* Formulaire 2 */
+
+#secondformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#secondformulaire fieldset legend{
+    color: white;
+}
+#secondformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Fin Formulaire 2 */
+
+/* Formulaire 3 */
+
+#troisiemeformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#troisiemeformulaire fieldset legend{
+    color: white;
+}
+#troisiemeformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Fin Formulaire 3 */
+
+/*Formulaire 4 */
+
+#quatrièmeformulaire{
+    display: none;
+    text-align: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+position: relative;
+top:15px;
+padding: 50px;
+}
+
+#quatrièmeformulaire fieldset legend{
+    color: white;
+}
+#quatrièmeformulaire p{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Fin Formulaire 4*/
+input[type=submit]{
+    margin-bottom: 15px;
+}
 
 /* Footer */
 
