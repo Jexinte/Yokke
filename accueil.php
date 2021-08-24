@@ -10,18 +10,11 @@ include('php/connexion.php');
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script>
+    <link rel="icon" type="image/jpg" href="images/logo.jpg" />
     <link type="text/css" rel="stylesheet" href="css/accueil.css">
-    <link rel="icon" type="image/jpg" href="images/logo.jpg" />
+
     <title>Yokke</title>
-
-
-    <link rel="icon" type="image/jpg" href="images/logo.jpg" />
-    <link rel="stylesheet" href="css/accueil.css">
-    <title>Yokke</title>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script>
-
+</head>
 
     <script>
         

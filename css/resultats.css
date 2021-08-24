@@ -1,5 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-body{
+
+/* Ne pas oublier de rajouter une bordure à la fin ! */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Oswald';
+}
+
+
+#blocpage{
     width:80%;
     margin: auto;
+    border: 2px solid black;
+}
+
+/* Menu */
+
+#container-navigation{
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+#container-navigation nav a{
+    margin-left: 20px;
+    color:black;
+}
+
+#logo{
+    position: relative;
+    top:35px;
+}
+
+/* Bannière */
+#container-banner{
+    margin-top: 30px;
+}
+#container-banner img {
+    max-width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    position: relative;
+    top:35px;
+    display: none;
+    margin-left: 22%;
+}   
+
+th,td,tr{
+    border: 2px solid white;
+    padding: 15px;
+}
+
+#resultats{
+    background-color: black;
+    height:100vh;
+}
+
+#btn-curl_debout{
+    font-size: 1rem;  
+    padding: 20px;
+    color:black;
+    border:1px solid white;
+    border: none;
+margin-left: 45%;
+margin-top: 15px;
+}
+
+#btn-curl_debout{
+    box-shadow:0px 5px 20px red;
+    transition:0.5s;
+}
+
+#btn-curl_debout a{
+    color:black;
 }
