@@ -3,19 +3,24 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color:black;
     font-family: 'Oswald';
 }
+
+
 
 /* Ne pas oublier de rajouter une bordure à la fin ! */
 
 #blocpage{
     width:80%;
     margin: auto;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     border:2px solid black;
 >>>>>>> Stashed changes
+=======
+    border:5px solid black;
+>>>>>>> formulaires
 }
 
 /* Menu */
@@ -27,6 +32,7 @@
 }
 #container-navigation nav a{
     margin-left: 20px;
+    color:black;
 }
 
 #logo{
@@ -68,6 +74,11 @@ button{
     color:black;
     border:1px solid white;
     border: none;
+    
+}
+
+button a {
+    color:black;
 }
 
 button:hover{
@@ -83,6 +94,7 @@ left: 50%;
 margin-left: -50px;
 top: 45%;
 margin-top: -50px;
+
 }
 #btn2{
     position: absolute;
@@ -111,8 +123,11 @@ margin-top: -50px;
     margin-top: -50px;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> formulaires
 /* Formulaire 1 */
 #premierformulaire{
     display: none;
@@ -209,20 +224,36 @@ padding: 50px;
     margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 input[type=submit]{
     font-size: 1rem;  
     padding: 10px;
+=======
+/* Fin Formulaire 4*/
+
+#envoyer{
+    margin-bottom: 15px;
+    font-size: 1rem;  
+    padding: 20px;
+>>>>>>> formulaires
     color:black;
     border:1px solid white;
     border: none;
 }
 
+<<<<<<< HEAD
 input[type=submit]:hover{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
 }
 /* Fin Formulaire 4*/
 >>>>>>> Stashed changes
+=======
+#envoyer:hover{
+    box-shadow:0px 5px 20px red;
+    transition:0.5s;
+}
+>>>>>>> formulaires
 
 /* Footer */
 
@@ -230,6 +261,7 @@ input[type=submit]:hover{
     height: auto;
     margin-top: 15px;
     text-align: center;
+    background-color: white;
 }
 
 #footer p {
