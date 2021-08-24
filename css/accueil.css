@@ -13,14 +13,11 @@
 #blocpage{
     width:80%;
     margin: auto;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+
     border:2px solid black;
->>>>>>> Stashed changes
-=======
+
     border:5px solid black;
->>>>>>> formulaires
+
 }
 
 /* Menu */
@@ -123,11 +120,7 @@ margin-top: -50px;
     margin-top: -50px;
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> formulaires
+
 /* Formulaire 1 */
 #premierformulaire{
     display: none;
@@ -224,36 +217,36 @@ padding: 50px;
     margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
+
 input[type=submit]{
     font-size: 1rem;  
     padding: 10px;
-=======
+}
 /* Fin Formulaire 4*/
 
 #envoyer{
     margin-bottom: 15px;
     font-size: 1rem;  
     padding: 20px;
->>>>>>> formulaires
+
     color:black;
     border:1px solid white;
     border: none;
 }
 
-<<<<<<< HEAD
+
 input[type=submit]:hover{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
 }
 /* Fin Formulaire 4*/
->>>>>>> Stashed changes
-=======
+
+
 #envoyer:hover{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
 }
->>>>>>> formulaires
+
 
 /* Footer */
 
