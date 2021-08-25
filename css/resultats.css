@@ -9,74 +9,251 @@
 }
 
 
-#blocpage{
+#blocpage
+{
     width:80%;
     margin: auto;
     border: 2px solid black;
 }
 
+a:visited
+{
+    color: black;
+}
+
 /* Menu */
 
-#container-navigation{
+#container-navigation
+{
     line-height: 50px;
     display: flex;
     justify-content: center;
 }
-#container-navigation nav a{
+
+#container-navigation nav a
+
+{
     margin-left: 20px;
     color:black;
 }
 
-#logo{
+#logo
+
+{
     position: relative;
     top:35px;
 }
 
 /* Bannière */
-#container-banner{
+#container-banner
+{
     margin-top: 30px;
 }
-#container-banner img {
+
+#container-banner img 
+{
     max-width: 100%;
 }
 
-table{
+#curl
+{
+
+    display: none;
     border-collapse: collapse;
-    color: white;
+    color:white;
     text-align: center;
     width:80%;
-    margin: auto;
     position: relative;
     top:35px;
-    display: none;
-    margin-left: 22%;
+    margin: auto;
+    margin-left:10%;
+    box-shadow: 12px 12px 5px white;
 }   
 
-th,td,tr{
+th,td,tr
+{
     border: 2px solid white;
     padding: 15px;
 }
 
-#resultats{
+#resultats
+{
     background-color: black;
-    height:100vh;
+    height:auto;
+  
 }
 
-#btn-curl_debout{
+#btn-curl_debout
+{
     font-size: 1rem;  
-    padding: 20px;
+    padding: 40px;
     color:black;
     border:1px solid white;
     border: none;
-margin-left: 45%;
-margin-top: 15px;
+    margin-left: 45%;
+    margin-top: 15px;
 }
 
-#btn-curl_debout{
+#btn-curl_debout
+{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
 }
 
-#btn-curl_debout a{
+#btn-curl_debout a
+
+{
     color:black;
+}
+
+#développé_couché
+{
+    display: none;
+    border-collapse: collapse;
+    color:white;
+    text-align: center;
+    width:80%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10px;
+    box-shadow: 12px 12px 5px white;
+  
+}
+
+th,td,tr
+{
+    border: 2px solid white;
+    padding: 15px;
+}
+
+
+#btn-developpe_couche{
+    font-size: 1rem;  
+    padding: 40px;
+    color:black;
+    border:1px solid white;
+    border: none;
+    margin-left: 45%;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+
+#btn-developpe_couche:hover
+{
+    box-shadow:0px 5px 20px red;
+    transition:0.5s;
+}
+
+#partie_développé_couché
+{
+    margin-top:5%;
+}
+
+
+/* Fin développé couché */
+
+#développement_des_épaules
+
+{
+    display: none;
+    border-collapse: collapse;
+    color:white;
+    text-align: center;
+    width:80%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10px;
+    box-shadow: 12px 12px 5px white;
+  
+}
+
+th,td,tr
+{
+    border: 2px solid white;
+    padding: 15px;
+}
+
+
+#btn-developpement_des_epaules
+
+{
+
+    font-size: 1rem;  
+    padding: 40px;
+    color:black;
+    border:1px solid white;
+    border: none;
+    margin-left: 45%;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+#btn-developpement_des_epaules:hover
+{
+
+    box-shadow:0px 5px 20px red;
+    transition:0.5s;
+}
+
+
+#partie_développement_des_épaules
+{
+
+    margin-top:5%;
+}
+
+/* Fin développement des épaules
+
+/* Développement des triceps */
+#développement_des_triceps
+
+{
+    display: none;
+    border-collapse: collapse;
+    color:white;
+    text-align: center;
+    width:80%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10px;
+    box-shadow: 12px 12px 5px white;
+  
+}
+
+th,td,tr
+{
+    border: 2px solid white;
+    padding: 15px;
+}
+
+
+#btn-developpement_des_triceps
+{
+
+    font-size: 1rem;  
+    padding: 40px;
+    color:black;
+    border:1px solid white;
+    border: none;
+    margin-left: 45%;
+    margin-top:25px;
+    margin-bottom: 25px;
+
+}
+
+#btn-developpement_des_triceps:hover
+
+{
+    box-shadow:0px 5px 20px red;
+    transition:0.5s;
+}
+
+
+#partie_développement_des_triceps
+
+{
+
+    margin-top:5%;
+
 }

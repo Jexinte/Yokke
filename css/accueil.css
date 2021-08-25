@@ -10,20 +10,23 @@
 
 /* Ne pas oublier de rajouter une bordure à la fin ! */
 
-#blocpage{
+#blocpage
+{
     width:80%;
     margin: auto;
-  border: 2px solid black;
+    border: 2px solid black;
 }
 
 /* Menu */
 
-#container-navigation{
+#container-navigation
+{
     line-height: 50px;
     display: flex;
     justify-content: center;
 }
-#container-navigation nav a{
+#container-navigation nav a
+{
     margin-left: 20px;
     color:black;
 }
@@ -34,34 +37,40 @@
 }
 
 /* Bannière */
-#container-banner{
+#container-banner
+{
     margin-top: 30px;
 }
+
 #container-banner img {
     max-width: 100%;
 }
 /* Galerie */
 
-#container-galerie{
+#container-galerie
+{
     display: flex;
     flex-wrap: wrap;
 }
 /* Ne pas oublier de mettre en position relative*/ 
-#container-galerie .box{
+#container-galerie .box
+{
     height: 500px;
     width: 50%;
     position: relative;
 }
 
 
-#container-galerie .box img{
+#container-galerie .box img
+{
     height: 500px;
     width: 100%;
 }
 
 
 
-button{
+button
+{
     font-size: 1rem;  
     padding: 20px;
     color:black;
@@ -70,26 +79,31 @@ button{
     
 }
 
-button a {
+button a 
+{
     color:black;
 }
 
-button:hover{
+button:hover
+{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
 
 }
 
-#btn1{
-position: absolute;
-width: 100px;
-left: 50%;
-margin-left: -50px;
-top: 45%;
-margin-top: -50px;
+#btn1
+{
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    top: 45%;
+    margin-top: -50px;
 
 }
-#btn2{
+
+#btn2
+{
     position: absolute;
     width: 100px;
     left: 50%;
@@ -97,17 +111,19 @@ margin-top: -50px;
     top: 45%;
     margin-top: -50px;
 }
-#btn3{
-position: absolute;
-width: 120px;
-left: 50%;
-margin-left: -50px;
-top: 45%;
-margin-top: -50px;
+#btn3
+{
+    position: absolute;
+    width: 120px;
+    left: 50%;
+    margin-left: -50px;
+    top: 45%;
+    margin-top: -50px;
 }
 
 
-#btn4{
+#btn4
+{
     position: absolute;
     width: 120px;
     left: 50%;
@@ -118,22 +134,25 @@ margin-top: -50px;
 
 
 /* Formulaire 1 */
-#premierformulaire{
+#premierformulaire
+{
     display: none;
     text-align: center;
     background-size: cover;
     width: 80%;
     margin: auto;
     background-color: black;
-position: relative;
-top:15px;
-padding: 50px;
+    position: relative;
+    top:15px;
+    padding: 50px;
 }
 
-#premierformulaire fieldset legend{
+#premierformulaire fieldset legend
+{
     color: white;
 }
-#premierformulaire p{
+#premierformulaire p
+{
     color:white;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -143,22 +162,25 @@ padding: 50px;
 
 /* Formulaire 2 */
 
-#secondformulaire{
+#secondformulaire
+{
     display: none;
     text-align: center;
     background-size: cover;
     width: 80%;
     margin: auto;
     background-color: black;
-position: relative;
-top:15px;
-padding: 50px;
+    position: relative;
+    top:15px;
+    padding: 50px;
 }
 
-#secondformulaire fieldset legend{
+#secondformulaire fieldset legend
+{
     color: white;
 }
-#secondformulaire p{
+#secondformulaire p
+{
     color:white;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -167,22 +189,25 @@ padding: 50px;
 
 /* Formulaire 3 */
 
-#troisiemeformulaire{
+#troisiemeformulaire
+{
     display: none;
     text-align: center;
     background-size: cover;
     width: 80%;
     margin: auto;
     background-color: black;
-position: relative;
-top:15px;
-padding: 50px;
+    position: relative;
+    top:15px;
+    padding: 50px;
 }
 
-#troisiemeformulaire fieldset legend{
+#troisiemeformulaire fieldset legend
+{
     color: white;
 }
-#troisiemeformulaire p{
+#troisiemeformulaire p
+{
     color:white;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -192,29 +217,33 @@ padding: 50px;
 
 /*Formulaire 4 */
 
-#quatrièmeformulaire{
+#quatrièmeformulaire
+{
     display: none;
     text-align: center;
     background-size: cover;
     width: 80%;
     margin: auto;
     background-color: black;
-position: relative;
-top:15px;
-padding: 50px;
+    position: relative;
+    top:15px;
+    padding: 50px;
 }
 
-#quatrièmeformulaire fieldset legend{
+#quatrièmeformulaire fieldset legend
+{
     color: white;
 }
-#quatrièmeformulaire p{
+#quatrièmeformulaire p
+{
     color:white;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 
-input[type=submit]{
+input[type=submit]
+{
     font-size: 1rem;  
     padding: 10px;
 }
@@ -224,21 +253,22 @@ input[type=submit]{
     margin-bottom: 15px;
     font-size: 1rem;  
     padding: 20px;
-
     color:black;
     border:1px solid white;
     border: none;
 }
 
 
-input[type=submit]:hover{
+input[type=submit]:hover
+{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
 }
 /* Fin Formulaire 4*/
 
 
-#envoyer:hover{
+#envoyer:hover
+{
     box-shadow:0px 5px 20px red;
     transition:0.5s;
 }
@@ -246,14 +276,16 @@ input[type=submit]:hover{
 
 /* Footer */
 
-#footer{
+#footer
+{
     height: auto;
     margin-top: 15px;
     text-align: center;
     background-color: white;
 }
 
-#footer p {
+#footer p 
+{
     font-size: 2rem;
     position: relative;
     padding: 10px;
