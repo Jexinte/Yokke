@@ -257,3 +257,21 @@ th,td,tr
     margin-top:5%;
 
 }
+
+
+/* Footer */
+
+#footer
+{
+    height: auto;
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+#footer p 
+{
+    font-size: 2rem;
+    position: relative;
+    padding: 10px;
+}

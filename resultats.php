@@ -280,6 +280,13 @@ include('php/connexion.php');
 </div>
 
 
+<div id="footer">
+                    
+                    <footer>
+                        <p>©2021 Yokke,INC. Tous droits réservés</p>
+                        
+                    </footer>
+        </div>
 </div>
 
 </body>
