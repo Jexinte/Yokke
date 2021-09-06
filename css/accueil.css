@@ -6,6 +6,9 @@
     font-family: 'Oswald';
 }
 
+button a{
+    color:black;
+}
 
 
 /* Ne pas oublier de rajouter une bordure à la fin ! */

@@ -53,6 +53,7 @@ a:visited
 #container-banner img 
 {
     max-width: 100%;
+   
 }
 
 #curl
@@ -263,7 +264,7 @@ th,td,tr
 
 #footer
 {
-    height: auto;
+
     margin-top: 15px;
     text-align: center;
     background-color: white;
@@ -274,4 +275,12 @@ th,td,tr
     font-size: 2rem;
     position: relative;
     padding: 10px;
+}
+
+#test{
+color: white;
+}
+
+#test5{
+    color:red;
 }

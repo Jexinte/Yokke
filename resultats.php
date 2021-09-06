@@ -8,10 +8,10 @@ include('php/connexion.php');
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link type="text/css" rel="stylesheet" href="css/resultats.css">
+            <link rel="icon" type="image/jpg" href="images/logo.jpg" />
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
             </script>
-            <link rel="icon" type="image/jpg" href="images/logo.jpg" />
-            <link type="text/css" rel="stylesheet" href="css/resultats.css">
             <title>Yokke</title>
 </head>
 
@@ -99,10 +99,15 @@ include('php/connexion.php');
                                 /* Fin de boucle */
                             }
                         
+                 $recuperation_de_donnees->closeCursor();
                  ?>
+                 
                             </tr>
                         </tbody>
+                        
+                    
                     </table>
+      
     </div>
     <!-- Fin Exercices Curl -->
 
@@ -277,17 +282,18 @@ include('php/connexion.php');
                                         </tr>
                                     </tbody>
                         </table>
+                     
 </div>
 
 
+</div>
 <div id="footer">
                     
                     <footer>
                         <p>©2021 Yokke,INC. Tous droits réservés</p>
-                        
+                       
                     </footer>
         </div>
-</div>
 
 </body>
 </html>
